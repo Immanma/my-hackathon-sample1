@@ -1,27 +1,53 @@
+  *{ 
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
 
-
-.header {
-  padding: 20px;
-  margin: 10px;
-  text-align: center;
-  color: rgb(48, 15, 139);
-  font-size: 40px;
+   }
+.Header {
+  padding: 70px;
+  text-align: left;
+  color: white;
+  font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
+  background-image: url("./take-a-break_s.webp");
+  background-size:cover;
+  background-position: center;
+  box-shadow: inset 0 0 0 2000px rgb(0, 0, 0, 0.8);
+
   
 }
 
-.header img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
+.Header Button {
+  background-color: #160385; 
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 12px 24px;
+  margin: 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
 }
+
+ .p1 {
+   color:whitesmoke;
+   padding-left: 20px;
+   margin:auto;
+   text-align: left;
+   font-style: italic;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
 
 .responsive {
   padding: 0 6px;
   float: left;
   width: 24.99999%;
 }
+
+
 
 @media only screen and (min-width: 768px){}
   .responsive {
